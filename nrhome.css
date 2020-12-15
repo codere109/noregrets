@@ -1,0 +1,48 @@
+/* Reset */
+*{
+ margin: 0;
+ padding: 0;   
+}
+ /*  body needs work */
+body{
+   margin: 40px;
+   box-sizing: border-box;
+   border: 3px solid grey;
+   border-radius: 40px;
+   padding: 40px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-weight: 20;
+   color: silver;
+   background-color: black;
+}
+/* Header only */
+header{
+   margin: 1px;
+   padding: 3px;
+}
+/* Other elements */
+ul li{
+   list-style: none;
+   text-decoration: none;
+}
+/* Main content TOP LEVEL LINKS 
+ Womens, Mens, Kids etc*/
+ #container{
+    display: flex;
+    justify-content: space-evenly;
+ }
+#navbar{
+   background-color: gray;
+
+}
+#nav-links{
+   display: flex;
+   justify-content: center;
+   position: relative;
+   margin-right: 2px;
+   padding: 2px 0;
+
+}
+
+
+
